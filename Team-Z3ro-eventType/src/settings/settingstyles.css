@@ -1,0 +1,35 @@
+/* ------------- settings.html styling ------------ */
+
+#curpfp{
+    max-height: 150px;
+    padding: 10px;
+}
+.nav-bg{
+    background-color: #000035;
+}
+
+#pfpdiv{
+    min-width: 200px;
+    min-height: auto;
+    border: 3px solid black;
+    display: flex;
+    margin: 0px;
+}
+
+#editinf{
+    margin-top: 10px;
+}
+
+#bigdiv{
+    display: flex;
+}
+
+#pref{
+    padding-left: 50px;
+}
+
+#inf{
+    padding-right: 10px;
+}
+/* ------------------ edit_info.html styling ---------- */
+

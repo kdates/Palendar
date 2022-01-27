@@ -1,0 +1,91 @@
+/* -------------- global styling for all webpages ------------- */
+/* styling of the html file */
+
+ 
+ /* styling of body of html file */
+ body{
+     margin: 0;
+     background-color: #98a3a2;
+ }
+ 
+ /* styling of the navigation bar, background color and height */
+ nav{
+     background-color: #4d5453;
+     height: 75px;
+ }
+ 
+ /* styling for the logo in the navigation bar. Gets floated to the left */
+ #logo{
+     float: left;
+     height: 100%;
+     background-color: black;
+     margin-left: 20px;
+     border-bottom: 2px solid black;
+ }
+ 
+ /* styling for the profile picture within the profile navigation button */
+ #pfp{
+     max-height: 50px;
+     padding-left: 20px;
+     border-bottom: 5px;
+ }
+ 
+ /* styling of the div that the list of buttons is in. Formats the buttons inline */
+ .navlist{
+     list-style-type: none;
+     padding: 3px;
+     display: inline;
+     width: 60px;
+ }
+ 
+ /* styling for the content portion of webpage */
+ .content{
+     margin: 10px;
+     font-family: Georgia, serif;
+ }
+ 
+ /* float all of the navigation buttons to the left; gets overridden for #profile id button */
+ .nli{
+     float: left;
+     padding-left: 20px;
+ }
+ 
+ .imgli a{
+    display: block;
+    color: white;
+    padding: 12px 22px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+ }
+ 
+ /* styling of the buttons in navigation bar, and the text inside them */
+ .nli a{
+     display: block;
+     padding: 22px 25px;
+     text-align: center;
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+     color: white;
+ }
+ 
+ /* NOT SURE ABOUT THISchanges the color of the navigation buttons on hover 
+ .nli a:hover, .imgli a:hover{
+     background-color: black;
+ }
+ */
+ /* the id for the profile list item */
+ #profile{
+     padding-right: 20px;
+     float: right;
+     vertical-align: middle;
+     display: flex;
+ }
+ 
+ /* id for the link <a> that redirects to settings.html */
+ #settings{
+     padding-top: 12px;
+ }
+

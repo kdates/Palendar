@@ -1,0 +1,80 @@
+/* -------------- STYLES OVERRIDE navstyles.css DO NOT REMOVE ------------- */
+
+/* styling of the buttons in navigation bar, and the text inside them */
+.nli a{
+    padding: 22px 25px;
+}
+
+
+
+/* ------------------ edit_info.html styling ---------- */
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #819091
+}
+.nav-bg{
+    background-color: #000035;
+}
+
+.nav-bg{
+    background-color: #15152b;
+}
+
+.profile-button {
+    background-color: #223a4d;
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background-color: black;
+}
+
+/*
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+*/
+
+.back:hover {
+    color: #682773;
+    cursor: pointer;
+}
+
+.labels {
+    font-size: 11px
+}
+
+#curpfp{
+    max-height: 200px;
+    padding: 10px;
+}
+
+.row{
+    background-color: #8b95a3;
+}
+.Grey{
+    background-color: #8b95a3;
+}
+
+.Black{
+    background-color: black;
+}
+
+.White{
+    background-color: white;
+}
+.form-control{
+    background-color: #c5d4d1;
+}
+
+#head{
+    font-size: 16px;
+}

@@ -1,0 +1,76 @@
+/* styling of the html file */
+
+ 
+ /* styling of body of html file */
+ body{
+     
+     margin: 0;
+ }
+ 
+ /* styling for the logo in the navigation bar. Gets floated to the left */
+ #logo{
+     float: left;
+     height: 100%;
+     background-color: black;
+     margin-left: 20px;
+ }
+ 
+ /* styling for the profile picture within the profile navigation button */
+ #pfp{
+     float: right;
+     max-height: 50px;
+     padding-left: 20px;
+     border-bottom: 5px;
+ }
+ 
+ /* styling for the content portion of webpage */
+ .welcome-text{
+     margin: 10px;
+     font-family: Georgia, serif;
+ }
+ div.about-text{
+    margin: 10px;
+    padding-top: 40px;
+    font-family: Georgia, serif;
+ }
+ /* the id for the profile list item */
+ #profile{
+     padding-right: 20px;
+     float: right;
+     vertical-align: middle;
+     display: flex;
+ }
+ 
+ /* id for the link <a> that redirects to settings.html */
+ #settings{
+     padding-bottom: 12px;
+ }
+ 
+ #curpfp{
+     max-height: 150px;
+     padding: 10px;
+ }
+ 
+ #pfpdiv{
+     min-width: 200px;
+     min-height: auto;
+     border: 3px solid black;
+     display: flex;
+     margin: 0px;
+ }
+ 
+ #editinf{
+     margin-top: 10px;
+ }
+
+ .nav-bg{
+    background-color: #15152b;
+}
+
+.Black{
+    background-color: black;
+}
+
+#colorJumb{
+    background-color: #98a3a2;
+}

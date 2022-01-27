@@ -1,0 +1,29 @@
+/* ------ Overides nav styles for body ------ */
+#body{
+    margin: 40px;
+}
+
+
+
+.title-text{
+    text-align: left;
+    color: #223a4d;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+div.about-text {
+    text-align: center;
+    text-indent: 50px;
+    margin-left:50 px;
+    margin-right: 50px;
+  }
+
+  .Black{
+    background-color: black;
+}
+
+.nav-bg{
+    background-color: #15152b;
+  }
